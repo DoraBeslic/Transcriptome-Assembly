@@ -1,1 +1,9 @@
+# Methods
+## Trinity genome-guided transcriptome assembly:
+### The input data for the genome-guided transcriptome assembly was sorted BAM alignment files produced from paired-end RNAseq reads from an RNA experiment used to study immune response and symbiosis in sea anemones (Aiptasia pallida). First, all the BAM alignment files were merged into one file. Next, the merged BAM file was assembled into a transcriptome using Trinity genome-guided assembly. The maximum separation distance Trinity allows for segments of a transcript to span introns was specified as 10,000. An output directory was specified as well. After assembly the guided transcriptome was analyzed using the TrinityStats.pl command and assembled transcriptome fasta file as input. Based on all transcript contigs, the contig N50 for the genome-guided assembly was 571. 
 
+## Trinity de novo trancriptome assembly:
+### The input data for the de novo transcriptome assembly was quality trimmed and paired-end RNAseq reads. As required by Trinity for de novo assembly, two comma-separated lists of files for the left and right reads were created. The Trinity de novo assembly command was then added, specifying a fastq sequence type, an output directory distinct from the genome-guided assembly output directory, left reads for the -left flag and right reads for the -right flag. After assembly the de novo transcriptome was analyzed using the TrinityStats.pl command and assembled transcriptome fasta file as input. Based on all transcript contigs, the contig N50 for the de novo assembly was 
+
+# References
+#### Etherington, G. J., Ramirez-Gonzalez, R. H., & MacLean, D. (2015). bio-samtools 2: a package for analysis and visualization of sequence and alignment data with SAMtools in Ruby. Bioinformatics, 31(15), 2565–2567. https://doi.org/10.1093/bioinformatics/btv178
