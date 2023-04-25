@@ -1,0 +1,58 @@
+
+
+     ______  ____   ____  ____   ____  ______  __ __
+    |      ||    \ |    ||    \ |    ||      ||  |  |
+    |      ||  D  ) |  | |  _  | |  | |      ||  |  |
+    |_|  |_||    /  |  | |  |  | |  | |_|  |_||  ~  |
+      |  |  |    \  |  | |  |  | |  |   |  |  |___, |
+      |  |  |  .  \ |  | |  |  | |  |   |  |  |     |
+      |__|  |__|\_||____||__|__||____|  |__|  |____/
+
+    Trinity-v2.9.1
+
+
+
+Trinity version: Trinity-v2.9.1
+Friday, March 31, 2023: 10:39:48	CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/ensure_coord_sorted_sam.pl data/bam/AipAll.bam
+** NOTE: Latest version of Trinity is Trinity-v2.15.1, and can be obtained at:
+	https://github.com/trinityrnaseq/trinityrnaseq/releases
+
+-appears to be a coordinate sorted bam file. ok.
+Friday, March 31, 2023: 10:39:48	CMD: java -Xmx64m -XX:ParallelGCThreads=2  -jar /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/ExitTester.jar 0
+Friday, March 31, 2023: 10:39:48	CMD: java -Xmx4g -XX:ParallelGCThreads=2  -jar /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/ExitTester.jar 1
+
+
+----------------------------------------------------------------------------------
+-------------- Trinity Phase 1: Clustering of RNA-Seq Reads  ---------------------
+----------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+------------ Trinity Phase 2: Assembling Clusters of Reads ---------------------
+------- (involving the Inchworm, Chrysalis, Butterfly trifecta ) ---------------
+--------------------------------------------------------------------------------
+
+Friday, March 31, 2023: 10:39:49	CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/trinity-plugins/BIN/ParaFly -c trinity_GG.cmds -CPU 4 -v -shuffle 
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/212179_212733.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/212179_212733.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/221258_289866.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/221258_289866.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/335475_335854.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/335475_335854.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/335866_394800.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/335866_394800.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/35023_36648.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/35023_36648.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/37972_39006.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/37972_39006.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/39058_39648.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/39058_39648.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/395898_396707.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/395898_396707.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/408203_433115.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/408203_433115.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+warning, command: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/../../Trinity --single "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/436246_442714.trinity.reads" --output "Dir_AipAll.bam.minC1.gff/LJWW01000001.1/0/436246_442714.trinity.reads.out" --CPU 1 --max_memory 1G --seqType fa --trinity_complete --full_cleanup   has successfully completed from a previous run.  Skipping it here.
+-reached max skip warning, turning off warnings for this.
+Number of Commands: 0
+
+
+All commands completed successfully. :-)
+
+Friday, March 31, 2023: 10:39:49	CMD: find Dir_*  -name '*inity.fasta'  | /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/GG_partitioned_trinity_aggregator.pl TRINITY_GG > /scratch/beslic.i/module-08-DoraBeslic/results/trinity_guided/Trinity-GG.fasta.tmp
+Friday, March 31, 2023: 10:40:20	CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/trinity-2.9.1/util/support_scripts/get_Trinity_gene_to_trans_map.pl /scratch/beslic.i/module-08-DoraBeslic/results/trinity_guided/Trinity-GG.fasta > /scratch/beslic.i/module-08-DoraBeslic/results/trinity_guided/Trinity-GG.fasta.gene_trans_map
+
+
+Finished. See /scratch/beslic.i/module-08-DoraBeslic/results/trinity_guided/Trinity-GG.fasta for reconstructed transcripts
+
